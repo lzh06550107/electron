@@ -1,0 +1,10 @@
+= 手册
+
+== 安装
+
+[source,bash]
+----
+set ELECTRON_MIRROR=https://npmmirror.com/mirrors/electron/
+set https_proxy=socks5://127.0.0.1:1080
+npm init electron-app@latest my-electron-app-vite-typescript -- --template=vite-typescript
+----
